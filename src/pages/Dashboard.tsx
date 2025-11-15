@@ -8,6 +8,7 @@ import { LogOut, Clock, Calendar, Brain, LayoutDashboard } from "lucide-react";
 import AttendanceLogger from "@/components/AttendanceLogger";
 import ScheduleOptimizer from "@/components/ScheduleOptimizer";
 import QuizModule from "@/components/QuizModule";
+import AdaptiveChatbot from "@/components/AdaptiveChatbot";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const Dashboard = () => {
@@ -115,6 +116,8 @@ const Dashboard = () => {
           </TabsContent>
         </Tabs>
       </main>
+
+      <AdaptiveChatbot />
     </div>
   );
 };
